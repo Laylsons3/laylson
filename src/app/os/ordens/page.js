@@ -1,9 +1,9 @@
 import React from "react";
-import { GetOrdens } from "../../../../lib/helper";
+// import { GetOrdens } from "../../../../lib/helper";
 import { AiFillCloseCircle } from "react-icons/ai";
 
 const Ordens = async () => {
-  const data = await GetOrdens();
+  // const data = await GetOrdens();
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400">
