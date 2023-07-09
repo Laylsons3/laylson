@@ -15,6 +15,7 @@ const Ordens = async () => {
 
       <section className="mx-4 bg-white/30 border border-zinc-300 shadow-lg text-zinc-800 rounded-lg py-4 flex gap-y-4 px-4">
         <div className="w-full grid grid-cols-4 gap-x-4">
+          {/*           
           {data.map((d, i) => (
             <div
               className="my-2 bg-white/30 border shadow shadow-black/50 p-2 rounded relative"
@@ -28,7 +29,7 @@ const Ordens = async () => {
               <div>Secretaria: {d.secretaria}</div>
               <p>Problema relatado: {d.problema}</p>
             </div>
-          ))}
+          ))} */}
         </div>
         {/* <pre>{data}</pre> */}
       </section>
